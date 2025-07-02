@@ -4,7 +4,7 @@ const cloudinary = require('cloudinary');
 const app = require('./backend/app');
 const connectDatabase = require('./backend/config/database');
 const PORT = process.env.PORT || 4000;
-
+const mongoose = require('mongoose');
 mongoose.set('strictQuery', true);
 
 // UncaughtException Error
